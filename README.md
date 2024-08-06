@@ -1,6 +1,23 @@
 
+Tämän repon aineiston tarkoituksena on luoda paperille tai tyvekill tulostettavia retkikarttoja .pdf muodossa jotka käytää vain vektori tietoja, jotta tulostetun kuvan laatu on mahdollisimman selvä.
 
-Kartan pohjana käytettään MML:n ainestoa "Maastotietokanta".
+
+
+Miten päästä alkuun
+===================
+
+
+- Asenna QGIS: https://qgis.org
+- kloona tämä repo komennolla `git clone https://github.com/jarmokivekas/retkikartta`, tai painamall githubissa vihreää nappulaa *Code* -> *Download ZIP*
+- lataa kloonatun repon hakemistoon MML:n maastotietokanta haluamaltasi alueelta: https://asiointi.maanmittauslaitos.fi/karttapaikka/tiedostopalvelu/maastotietokanta?lang=fi. Jos tilaa rittää, niin koko suomen tietokanta on vain 110 GB, niin se on mielestäni kaikkein kätevin tapa. Voi myös ladata pienemmän rajatun alueen.
+
+
+
+Datalähteet
+===========
+
+
+Kartan pohjana käytettään MML:n ainesta "Maastotietokanta".
 
 
 https://www.maanmittauslaitos.fi/geopackage
@@ -21,7 +38,7 @@ https://github.com/nlsfi/geoserver-configurations/tree/master/styles/maastokartt
 
 
 Koordinaatisto
---------------
+==============
 
 MGRS perustuu UTM koordinaatistoon. Käytännössä suomessa ollaan "WGS84 / UTM zone 35N" tai ""WGS84 / UTM zone 34N" riippuen sijainnista itä-länsi suunnalla. Tässä N on vyöhyke north, eli pohjoinen pallonpuolisko. Esim turun alueen 35V tarkentaa aluetta pohjois-etelä suunnassa, mutta projektio on kuitenki yhä 35N, koska olennaista on pohjoinen pallonpuolisko.
 
