@@ -9,8 +9,18 @@ Miten päästä alkuun
 
 - Asenna QGIS: https://qgis.org
 - kloona tämä repo komennolla `git clone https://github.com/jarmokivekas/retkikartta`, tai painamall githubissa vihreää nappulaa *Code* -> *Download ZIP*
-- lataa kloonatun repon hakemistoon MML:n maastotietokanta haluamaltasi alueelta: https://asiointi.maanmittauslaitos.fi/karttapaikka/tiedostopalvelu/maastotietokanta?lang=fi. Jos tilaa rittää, niin koko suomen tietokanta on vain 110 GB, niin se on mielestäni kaikkein kätevin tapa. Voi myös ladata pienemmän rajatun alueen.
+- lataa kloonatun repon `/data` hakemistoon MML:n maastotietokanta haluamaltasi alueelta: https://asiointi.maanmittauslaitos.fi/karttapaikka/tiedostopalvelu/maastotietokanta?lang=fi. Jos tilaa rittää, niin koko suomen tietokanta on vain 110 GB, niin se on mielestäni kaikkein kätevin tapa. Voi myös ladata pienemmän rajatun alueen.
 
+
+```
+├── data
+│   ├── mtkkorkeus.gpkg
+│   └── mtkmaasto.gpkg
+├── maastokartta A4 1_25000 - märynummi-uhrilähde.pdf
+├── maastokartta A4 1_25000 pirttimäki.pdf
+├── README.md
+└── retkikartta.qgz
+```
 
 
 Datalähteet
